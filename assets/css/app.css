@@ -1,0 +1,37 @@
+/* This file is for your main application css. */
+
+:root {
+  --ivory: #FFFFF0;
+  --blush: #F5E7EA;
+  --sage: rgb(144, 160, 134);
+  --burgundy: rgb(123, 23, 61);
+}
+
+body {
+text-align: center;
+  background-color: var(--blush);
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+
+#title {
+  color: var(--burgundy);
+}
+
+.card-color {
+  background-color: var(--sage);
+  color: var(--ivory);
+}
+
+.time-number {
+  font-size: 2.0em;
+}
+
+.units {
+  font-size: 1.0em;
+}
+
+@media screen and (max-width: 767px) {
+  #seconds-card {
+      display: none;
+  }
+}
